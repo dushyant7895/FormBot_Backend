@@ -8,7 +8,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 5000;
 
 const corsOptions = {
-  origin: 'http://localhost:5173',
+  origin: 'http://formbot-for-user.vercel.app',
   optionsSuccessStatus: 200
 };
 
