@@ -38,7 +38,7 @@ app.listen(PORT, () => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Everything is ok my buddy");
+  res.send("Everything is runnig perfectly");
 });
 
 app.use("*", (req, res) => {
