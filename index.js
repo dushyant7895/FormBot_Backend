@@ -8,7 +8,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 5000;
 
 const corsOptions = {
-  origin: 'https://form-bot-backend-nine.vercel.app',
+  origin: 'https://form-bot-user.netlify.app',
   optionsSuccessStatus: 200
 };
 
